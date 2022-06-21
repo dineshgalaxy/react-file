@@ -1,0 +1,116 @@
+@media only screen and (max-width: 767px){
+    .menubar{
+        display: none;
+    }
+    .logo{
+        margin-bottom: 15px;
+    }
+    .humburger{
+        display:block;
+        padding:10px 20px;
+        color: white;
+    }
+    .heading{
+        padding-top: 40px;
+    }
+    .heading h1{
+       line-height: normal;
+       font-size: 40px;
+       letter-spacing: normal;
+    }
+    .clients{
+        padding: 30px 15px;
+    }
+    .clientExp{
+        flex-wrap: wrap;
+    }
+    .sliderContainer{
+        padding: 25px 15px 25px 15px;
+    }
+    .mySlides h2{
+        font-size: 18px;
+    line-height:normal;
+    }
+    .pubHousing{
+        flex-wrap: wrap;
+}
+.housingText{
+    padding: 25px 15px;
+    max-width:100%;
+}
+.housingText>h2{
+    font-size: 25px;
+    letter-spacing: normal;
+    padding-top: 15px;
+}
+.housingText .authorName h2{
+    padding-top: 0;
+}
+
+.insights{
+    flex-wrap: wrap;
+}
+
+.insightsH2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.eventsTop{
+    padding: 25px 0;
+    margin-top: 25px;
+}
+.eventsH2{
+    font-size: 25px;
+}
+.rightEvents .eventsText {
+    padding-bottom: 25px;
+}
+.events{
+flex-wrap: wrap;
+width: 100%;
+}
+.leftEvents{
+    flex:1 1 100%;
+    padding-right: 0;
+    margin-right:0;
+    border-right: none;
+    margin-bottom: 40px;
+}
+.footerItem{
+    justify-content:flex-start;
+    padding-bottom: 18px;
+}
+footer{
+    padding-top:25px;
+    padding-bottom: 25px;
+}
+.solutions{
+    padding: 25px 0;
+    margin-top: 25px;
+}
+.clientExpText {
+    max-width: 100%;
+    width: 100%;
+}
+.insightItem {
+    max-width: 402px;
+    width: 100%;
+}}
+@media only screen and (min-width: 767px) and (max-width: 900px){
+    .housingImg{
+        padding: 15px 30px;
+    }
+    .housingText
+    {
+        padding: 25px 30px;
+    }
+}
+
+@media only screen and (min-width: 767px){
+    .humburger{
+        display: none;
+    }
+}
+
+
